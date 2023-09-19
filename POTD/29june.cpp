@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+
 class Solution{
 public:
     bool solve(int input){
