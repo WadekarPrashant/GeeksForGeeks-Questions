@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/power-set4302/1">Power Set</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a string <strong>s </strong>of length<strong> n</strong>, find all the <strong>possible <a href="https://www.geeksforgeeks.org/data-structures/string-subsequence-substring/">subsequences</a> </strong>of the string <strong>s</strong> in <strong>lexicographically-sorted </strong>order.</span></p>
+<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input : <br></strong>s = "abc"
+<strong>Output: <br></strong>a ab abc ac b bc c
+<strong>Explanation : <br></strong>There are a total 7 number of subsequences possible <br>for the given string, and they are mentioned above <br>in lexicographically sorted order.</span>
+</pre>
+<p><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: <br></strong>s = "aa"
+<strong>Output: <br></strong>a a aa
+<strong>Explanation : <br></strong></span><span style="font-size: 18px;">There are a total 3 number of subsequences possible <br>for the given string, and they are mentioned above <br>in lexicographically sorted order.</span></pre>
+<p><span style="font-size: 18px;"><strong>Your Task:</strong><br>You don't need to read input or print anything.&nbsp;</span><span style="font-size: 18px;">Your t</span><span style="font-size: 18px;">ask is to complete the function&nbsp;<strong>AllPossibleStrings()&nbsp;</strong>which takes a string <strong>s</strong> as the input parameter and <strong>returns a list </strong>of all possible <strong>subsequences (non-empty)</strong> that can be formed from <strong>s</strong> in <strong>lexicographically-sorted </strong>order.</span></p>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O( n*2<sup>n&nbsp; </sup>)<br><strong>Expected Space Complexity:&nbsp;</strong>O( n * 2<sup>n </sup>)</span></p>
+<p><strong><span style="font-size: 18px;">Constraints:&nbsp;</span></strong><br><span style="font-size: 18px;">1 &lt;= n &lt;= 16<br><strong>s</strong> will constitute of lower case english alphabets</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Snapdeal</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>Bit Magic</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
