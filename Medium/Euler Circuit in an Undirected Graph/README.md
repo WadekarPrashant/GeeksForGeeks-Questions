@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/euler-circuit-in-a-directed-graph/1">Euler Circuit in an Undirected Graph</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;"><span style="text-decoration: underline;"><strong><a href="https://en.wikipedia.org/wiki/Eulerian_path">Eulerian Path</a>&nbsp;</strong></span>is a path in a graph that visits <strong>every edge exactly once</strong>. Eulerian Circuit is an Eulerian Path that <strong>starts</strong> and <strong>ends</strong> on the <strong>same vertex</strong>. Given the number of vertices <strong>v</strong> and adjacency list <strong>adj</strong> denoting the graph. Find that there exists the Euler circuit or not. Return <strong>1</strong> if there exist&nbsp; <strong>alteast one</strong>&nbsp;eulerian path else <strong>0.</strong></span></p>
+<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: <br></strong>v = 4 <br>edges[] = {{0, 1}, <br>           {0, 2}, <br>           {1, 3}, <br>           {2, 3}}
+</span><img src="https://media.geeksforgeeks.org/img-practice/PROD/addEditProblem/700536/Web/Other/b21c49fc-2edf-4662-b105-85f7bb2f7f30_1685086713.png" alt="">
+<span style="font-size: 18px;"><strong>Output: <br></strong>1
+<strong>Explanation: </strong>corresponding adjacency list will be {{1, 2},{0, 3},{0, 3},{1, 2}}<br>One of the Eularian circuit 
+starting from vertex 0 is as follows:
+0-&gt;1-&gt;3-&gt;2-&gt;0</span>
+</pre>
+<p><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: <br></strong>v = 3<br>edges[] = {{0, 1}, <br>         {0, 2}}<br>         
+</span><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700536/Web/Other/blobid0_1709738992.png" width="302" height="262"><br><span style="font-size: 18px;"><strong>Output: <br></strong>0<br><strong>Explanation: </strong>corresponding adjacency list will be {{1, 2}}<strong><br></strong>No Eulerian path is found.</span></pre>
+<p><span style="font-size: 18px;"><strong>Your Task:</strong><br>You don't need to read or print anything. Your task is to complete the function&nbsp;<strong>isEularCircuitExist()</strong> which takes&nbsp;<strong>v</strong> and adjacency list <strong>adj[]</strong>&nbsp;as input parameter and returns boolean value <strong>1</strong> if Eular circuit exists otherwise returns <strong>0</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(v + e)<br><strong>Expected Space Complexity:&nbsp;</strong>O(v)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= v &lt;= 10<sup>5</sup><br>1 &lt;= edges &lt;= 2*10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>DFS</code>&nbsp;<code>Graph</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
