@@ -5,6 +5,7 @@ using namespace std;
 
 // } Driver Code Ends
 
+
 class Solution {
   public:
     long long countWays(int number) {
