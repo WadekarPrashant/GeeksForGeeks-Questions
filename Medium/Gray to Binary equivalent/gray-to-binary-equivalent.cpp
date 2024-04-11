@@ -7,6 +7,7 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
+
 class Solution{
     public:
     // function to convert a given Gray equivalent n to Binary equivalent.
