@@ -47,8 +47,6 @@ struct Node
 };
 */
 
-/*You are required to complete this method*/
-
 class Solution {
     public:
     Node* deleteK(Node *head,int K){
