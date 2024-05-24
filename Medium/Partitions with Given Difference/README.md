@@ -1,0 +1,14 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1">Partitions with Given Difference</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr</strong>, partition it into two subsets(possibly empty) such that each element must belong to only one subset. Let the sum of the elements of these two subsets be <strong>S1</strong> and <strong>S2</strong>.&nbsp;<br></span><span style="font-size: 18px;">Given a difference <strong>d</strong>, count the number of partitions in which <strong>S1</strong> is greater than or equal to <strong>S2</strong> and the difference between <strong>S1</strong> and <strong>S2</strong> is equal to <strong>d</strong>. Since the answer may be large return it<strong> modulo 10<sup>9</sup>&nbsp;+ 7</strong>.</span></p>
+<p><strong><span style="font-size: 18px;">Example 1:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong>
+n = 4<br>d = 3
+arr[] =  { 5, 2, 6, 4}
+<strong>Output: </strong>1
+<strong>Explanation:
+</strong>There is only one possible partition of this array. Partition : {6, 4}, {5, 2}. The subset difference between subset sum is: (6 + 4) - (5 + 2) = 3.</span></pre>
+<p><strong><span style="font-size: 18px;">Example 2:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:
+</strong>n = 4<br>d = 0 <br>arr[] = {1, 1, 1, 1} <br><strong>Output:</strong> 6 <br><strong>Explanation:</strong><br>we can choose two 1's from indices {0,1}, {0,2}, {0,3}, {1,2}, {1,3}, {2,3} and put them in S1 and remaning two 1's in S2.<br>Thus there are total 6 ways for partition the array arr. </span></pre>
+<p><strong><span style="font-size: 18px;">Your Task:</span></strong><br><span style="font-size: 18px;">You don't have to read input or print anything. Your task is to complete the function&nbsp;<strong>countPartitions()&nbsp;</strong>which takes the integer&nbsp;<strong>n</strong>&nbsp;and <strong>d</strong> and array <strong>arr</strong> and returns the count of partitions.</span></p>
+<p><span style="font-size: 18px;"><strong style="font-size: medium;"><span style="font-size: 18px;">Expected Time Complexity:&nbsp;</span></strong><span>O( n*sum(arr))</span><br style="font-size: medium;"><strong style="font-size: medium;"><span style="font-size: 18px;">Expected Space Complexity:&nbsp;</span></strong><span>O( sum(arr))</span></span></p>
+<p><strong><span style="font-size: 18px;">Constraint:</span></strong><br><span style="font-size: 18px;">1 &lt;= n &lt;= 500<br>0 &lt;= d&nbsp; &lt;= 25000<br>0 &lt;= arr[i] &lt;= 50</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Arrays</code>&nbsp;
