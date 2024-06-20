@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/integral-points-in-triangle5026/1">Integral Points Inside Triangle</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given three non-collinear points whose co-ordinates are <strong>p(p1, p2), q(q1, q2) </strong>and<strong> r(r1, r2) </strong>in the X-Y plane. Return the number of<strong> </strong>integral / lattice points strictly inside the&nbsp;triangle&nbsp;formed by these points.<br><span style="text-decoration: underline;">Note:</span> - A point in the X-Y plane is said to be an integral / lattice point if both its coordinates are integral.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>p = (0,0), q = (0,5), r = (5,0)
+<strong>Output: </strong>6
+<strong>Explanation: <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/705472/Web/Other/blobid1_1718772838.jpg" width="300" height="291"><br></strong></span><span style="font-size: 14pt;">As shown in figure, points (1,1) (1,2) (1,3) (2,1) (2,2) and (3,1) are the integral points inside the triangle. So total 6 are there.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>p = (62,-3), q = (5,-45), r = (-19,-23)
+<strong>Output: </strong>1129
+<strong>Explanation: </strong>There are 1129 integral points in the triangle formed by p, q and r.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(Log<sub>2</sub>10<sup>9</sup>)<br><strong>Expected Auxillary Space:&nbsp;</strong>O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>-10<sup>9&nbsp;</sup>≤ x-coordinate, y-coordinate ≤&nbsp;10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>Geometric</code>&nbsp;<code>Algorithms</code>&nbsp;
