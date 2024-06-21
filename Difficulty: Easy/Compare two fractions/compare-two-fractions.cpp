@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 
-
 class Solution {
   public:
     string compareFrac(string str) {
@@ -53,6 +52,7 @@ class Solution {
         return (value1>value2)?(a+"/"+b):(value1==value2)?"equal":(c+"/"+d);
     }
 };
+
 
 //{ Driver Code Starts.
 
