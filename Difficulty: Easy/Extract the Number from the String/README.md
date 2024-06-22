@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/extract-the-number-from-the-string3428/1">Extract the Number from the String</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a sentence containing several words and numbers. Find the largest number among them which does not contain 9.&nbsp;</span><span style="font-size: 18px;">If no such number exists, return -1.</span></p>
+<p><span style="font-size: 18px;"><strong>Note:</strong> Numbers and words are separated by spaces only. It is guaranteed that there are no leading zeroes in the answer.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>sentence="This is alpha 5057 and 97"<strong><br></strong><strong>Output: </strong>5057
+<strong>Explanation: </strong>5057 is the only number that does not have a 9.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>sentence="Another input 9007"<strong><br></strong><strong>Output: </strong>-1
+<strong>Explanation: </strong>Since there is no number that does not contain a 9,output is -1.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity: </strong>O(n)<br><strong>Expected Auxillary Space: </strong>O(n)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1&lt;=n&lt;=10<sup>6</sup><br>1&lt;=answer&lt;=10<sup>18</sup></span></p>
+<p><strong><span style="font-size: 18px;"><sup>n is the length of a given sentence.</sup></span></strong></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>TCS</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Regular Expression</code>&nbsp;<code>Data Structures</code>&nbsp;
