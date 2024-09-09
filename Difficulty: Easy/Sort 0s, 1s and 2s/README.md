@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1">Sort 0s, 1s and 2s</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" bis_skin_checked="1"><p><span style="font-size: 18px;">Given an array <strong>arr</strong> containing only <strong>0s, 1s, and 2s.</strong> Sort the array in ascending order.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[]= [0, 2, 1, 2, 0]
+<strong>Output: </strong>0 0 1 2 2
+<strong>Explanation: </strong>0s 1s and 2s are segregated into ascending order.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [0, 1, 0]
+<strong>Output: </strong>0 0 1
+<strong>Explanation: </strong>0s 1s and 2s are segregated into ascending order.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity: </strong>O(n)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 10<sup>6</sup><br>0 &lt;= arr[i] &lt;= 2</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Paytm</code>&nbsp;<code>Flipkart</code>&nbsp;<code>Morgan Stanley</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>OYO Rooms</code>&nbsp;<code>Samsung</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>Hike</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>Ola Cabs</code>&nbsp;<code>Walmart</code>&nbsp;<code>MAQ Software</code>&nbsp;<code>Adobe</code>&nbsp;<code>Yatra.com</code>&nbsp;<code>SAP Labs</code>&nbsp;<code>Qualcomm</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Sorting</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
