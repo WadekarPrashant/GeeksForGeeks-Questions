@@ -1,0 +1,37 @@
+class Solution {
+  public:
+    Node *compute(Node *head) {
+        Node* prev = nullptr;
+        Node* curr = head;
+        while (curr != nullptr) {
+            Node* nxt = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nxt;
+        }
+        head = prev;
+
+        Node* newHead = head;
+        curr = head;
+        int mx = curr->data;
+        while (curr->next != nullptr) {
+            if (curr->next->data >= mx) {
+                mx = curr->next->data;
+                curr = curr->next;
+            } else {
+                curr->next = curr->next->next;
+            }
+        }
+
+        prev = nullptr;
+        curr = newHead;
+        while (curr != nullptr) {
+            Node* nxt = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nxt;
+        }
+
+        return prev;
+    }
+};
